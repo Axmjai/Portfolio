@@ -10,7 +10,7 @@ const Navber=()=>{
         <>
         <nav className="nav-wrapper"> 
         <div className="nav-content">
-            <div className="textw">Wellcome to Portfolio</div>
+            <div className="textw">Welcome to Portfolio</div>
       
             <ul>
             <li>
