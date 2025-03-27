@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navber from './components/Navber.jsx'
+import Home from './Home/Home.jsx';
+import Skill from './Skills/skill.jsx';
+import Work from './work/work.jsx';
+import ContactMe from './ContactMe/ContactMe.jsx';
+import './index.css'
+import './App.css'
+import Bu from './resume_port/bu.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+   <>
+    <Navber />
+    <div className='container'>
+      <Home/>
+      <Bu />
+      <Skill />
+      <Work />
+      <ContactMe />
     </div>
+   </>
+
+
   );
 }
 

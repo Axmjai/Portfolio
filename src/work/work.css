@@ -1,0 +1,12 @@
+.ex-container{
+    margin: 4rem 0;
+    position: relative;
+    
+}
+
+.ex-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
