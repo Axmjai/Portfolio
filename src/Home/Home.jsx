@@ -5,9 +5,10 @@ const Home = () => {
   return (
     <section className='home-container'>
         <div className='home-content' id='1'>
-            <h2>Wellcome To Portfolio Website of&nbsp; Suphakorn</h2>
+            <h2>Welcome To Portfolio Website of&nbsp; Suphakorn</h2>
             <p>
-            My name is Suphakorn Rodchona. My nickname is Aom. I am 20 years old.
+            My name is Suphakorn Rodchona. My nickname is Aom. I am 22 years old.
+
             </p>
             
           
